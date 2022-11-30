@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }}{% endblock title %}
+
+{% block content %}
+{% for page in paginator.pages %}
+<article class="post">
+    <h1 class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+    <div class="post-meta">
+        <span class="post-date">{{ page.date }}</span>
+        {% for tag in page.taxonomies["tags"] %}
+        <a href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) }}">#{{ tag }}</a>
+        {% endfor %}
+    </div>
+</article>
+{% endfor %}
+
+<nav class="pagination">
+    {% if paginator.previous %}
+    <a class="previous" href="{{ paginator.previous }}">Prev</a>
+    {% endif %}
+    {% if paginator.next %}
+    <a class="next" href="{{ paginator.next }}">Next</a>
+    {% endif %}
+</nav>
+{% endblock content %}

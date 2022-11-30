@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }}{% endblock title %}
+
+{% block content %}
+<h1 class="title">{{ page.title }}</h1>
+
+<div class="post-meta">
+    <span class="post-date">{{ page.date }}</span>
+    {% if "tags" in page.taxonomies %}
+    {% for tag in page.taxonomies["tags"] %}
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) }}">#{{ tag }}</a>
+    {% endfor %}
+    {% endif %}
+</div>
+
+<div class="post-content">{{ page.content | safe }}</div>
+{% endblock content %}
