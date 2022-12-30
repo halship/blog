@@ -128,8 +128,8 @@ certbot certonly --standalone -d example.com
 ```
 を実行し、```/etc/nginx/sites-available/mastodon```の次の2行をアンコメントです。
 ```
- # ssl_certificate     /etc/letsencrypt/live/example.com/fullchain.pem;
- # ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+# ssl_certificate     /etc/letsencrypt/live/example.com/fullchain.pem;
+# ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
 ```
 
 ## 建設完了
