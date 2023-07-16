@@ -14,7 +14,8 @@ tags = ["Mastodon", "サーバー"]
 鯖缶の人たちなどをフォローしたことで刺激を受け、
 11/21におひとり様サーバーを建てました。
 
-- [simple gear don](https://mstdn.simple-gear.com/about)
+- ~~simple gear don~~
+- →2023/07/16追記: 潰したり建てたりして今はここです [simple gear don](https://mastodon.simple-gear.com/about)
 
 おひとり様なのでユーザ登録を受け付けていません、ごめんね。
 
@@ -100,6 +101,7 @@ ACMを使って設定したいドメインの証明書を発行してもらわ�
 あとやったこととしては、media.simple-gear.com内に存在しないファイルを開こうとした際に404ページが開くよう設定しました。
 
 ![スクリーンショット1](/screen01.png)
+
 (こんな感じ)
 
 この辺の設定については[ここ](https://aimstogeek.hatenablog.com/entry/2018/07/23/135032)らへんを参照するといいと思います。
@@ -154,4 +156,5 @@ certbot certonly --standalone -d example.com
 
 あ、よかったらフォローしてみてね。
 
-- [@halship@mstdn.simple-gear.com](https://mstdn.simple-gear.com/@halship)
+- ~~@halship@mstdn.simple-gear.com~~
+- →2023/07/16追記: 今はここ [@halship@mastodon.simple-gear.com](https://mastodon.simple-gear.com/@halship)
