@@ -15,7 +15,7 @@ tags = ["Mastodon", "サーバー"]
 11/21におひとり様サーバーを建てました。
 
 - ~~simple gear don~~
-- →2023/07/16追記: 潰したり建てたりして今はここです [simple gear don](https://mastodon.simple-gear.com/about)
+- →2023/07/16追記: 潰したり建てたりして今はここです [https://akm.simple-gear.com](https://akm.simple-gear.com)
 
 おひとり様なのでユーザ登録を受け付けていません、ごめんね。
 
@@ -157,4 +157,4 @@ certbot certonly --standalone -d example.com
 あ、よかったらフォローしてみてね。
 
 - ~~@halship@mstdn.simple-gear.com~~
-- →2023/07/16追記: 今はここ [@halship@mastodon.simple-gear.com](https://mastodon.simple-gear.com/@halship)
+- →2023/07/16追記: 今はここ [@halship@akm.simple-gear.com](https://akm.simple-gear.com/halship)
