@@ -9,5 +9,5 @@ template = "page.html"
 - 名前: はるふね (halship)
 - 職業: システムエンジニア
 - Github: [halship](https://github.com/halship)
-- Akkoma (自鯖): [@halship@akm.simple-gear.com](https://akm.simple-gear.com/halship)
+- Pleroma (自鯖): [@halship@pleroma.simple-gear.com](https://pleroma.simple-gear.com/users/halship)
 - Mastodon (Japan鯖): [@halship@mastodon-japan.net](https://mastodon-japan.net/@halship)

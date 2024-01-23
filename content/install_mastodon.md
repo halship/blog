@@ -157,4 +157,4 @@ certbot certonly --standalone -d example.com
 あ、よかったらフォローしてみてね。
 
 - ~~@halship@mstdn.simple-gear.com~~
-- →2023/07/16追記: 今はここ [@halship@akm.simple-gear.com](https://akm.simple-gear.com/halship)
+- →2024/01/23追記: 今はここ [@halship@pleroma.simple-gear.com](https://pleroma.simple-gear.com/users/halship)
